@@ -1,0 +1,9 @@
+import re
+s=input("Enter the string")
+s1=input("Enter the second string");
+m=re.search(s,s1)
+if m!=None:
+    print("start is:",m.start(),"end is:",m.end())
+else:
+    print("match not found")
+    
